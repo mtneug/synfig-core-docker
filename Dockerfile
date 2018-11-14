@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-ENV SYNFIG_VERSION=v1.2.1
+ENV SYNFIG_VERSION=v1.2.2
 
 RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing --virtual .run-deps \
       boost boost-program_options boost-system boost-filesystem zlib libsigc++ glibmm cairo fftw pango gettext \
